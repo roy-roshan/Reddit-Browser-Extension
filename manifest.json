@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "rSlashWhere",
+  "description": "This extension will find the receptivity of a Reddit Post.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "templates/main.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ]
+
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../styles/graph.css">
+  <link rel="stylesheet" href="../styles/button.css">
+  <title>rSlashWhere</title>
+</head>
+
+<body>
+  <div class="header">
+      <h1>rSlashWhere</h1>
+      <button type="button" name="button" id="export"class="small button">Export</button>
+      <div class="">
+
+      </div>
+  </div>
+  <div class="wrapper">
+    <div class="graph">
+      <canvas id="mainCanvas">
+      Your browser does not support the HTML canvas tag.</canvas>
+    </div>
+    <div class="other">
+      <table id="table">
+        <thead>
+          <th>Title</th>
+          <th>Subreddit</th>
+          <th>Date</th>
+          <th>Score</th>
+        </thead>
+        <tbody id="tablebody">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="footer">
+    Group 9 2022. All rights reserved
+  </div>
+  <script src="../scripts/export.js"></script>
+  <script src="../scripts/graph.js"></script>
+  <!-- type="module" -->
+</body>
+</html>

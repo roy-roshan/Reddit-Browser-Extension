@@ -1,0 +1,50 @@
+body {
+  background-color: white;
+
+}
+table {
+
+}
+.wrapper{
+
+}
+.header{
+  height: 10%;
+  vertical-align: middle;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-image: linear-gradient(#e66465, #9198e5);
+  color: white;
+  padding: 10px
+}
+.graph {
+    width: 50%;
+    float:left;
+}
+.other {
+    overflow: hidden;
+}
+.footer{
+    background-image: linear-gradient(#e66465, #9198e5);
+    height: 60px;
+    text-align: right;
+    text-align: bottom;
+    color: white;
+}
+#mainCanvas{
+  background-color: white;
+}
+
+th {
+  border: 1px solid;
+  background-color: white;
+  border-collapse: collapse;
+}
+table, td {
+  border: 1px solid;
+  background-color: white;
+  border-collapse: collapse;
+}
+table{
+  margin: 10px;
+}

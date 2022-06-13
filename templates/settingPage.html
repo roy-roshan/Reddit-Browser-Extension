@@ -1,0 +1,98 @@
+<html>
+
+<head>
+  <meta name="code-stutio" content="code-123" />
+  <link rel="stylesheet" href="../styles/button.css">
+  <link rel="stylesheet" href="../styles/setting_layout.css">
+  </script>
+</head>
+<meta charset="utf-8">
+<title>GROP9</title>
+
+</head>
+
+<body class= "settingBody" style="overflow:hidden">
+
+  
+  <div class="a">
+    <div id="box" style="opacity: 0.01;">
+      <h1>rSlashWhere </h1>
+    </div>
+    <script>
+      var i = 1;
+      var flag = true;
+      function fade() {
+        var box = document.getElementById('box');
+        if (document.all) {
+          box.style.filter = "alpha(opacity='+i+')";
+        } else {
+          box.style.opacity = parseFloat(i / 100);
+        }
+        if (i < 100 && flag) {
+          i += 5;
+        }
+        else {
+          flag = false;
+        }
+        if (i > 0 && !flag) {
+          i -= 5;
+        }
+        else {
+          flag = true;
+        }
+        setTimeout('fade()', 50);
+      }
+      fade();
+    </script>
+  </div>
+
+
+  </div>
+
+  <div class="c">
+    <h2>This is rSlashWhere！</h2>
+    <p>a useful tool to analysing reddit posts</p>
+
+  </div>
+
+
+  <div class="d">
+    <h2>Name of project</h2>
+
+    <form>
+      <input type="radio" name="grapType" value="timeLine">timeLine<br />
+      <input type="radio" name="grapType" value="spiderDiagram">spiderDiagram
+    </form>
+
+    <p>
+      <h3>Analysis date（Multiple choise）：</h3>
+
+      <input type="checkbox" value="comments" name="analysisDate">Comments
+      <input type="checkbox" value="like" name="analysisDate">Likes
+      <input type="checkbox" value="forward" name="analysisDatey">Forward
+      
+    </p>
+
+    <p></p><!--   1      !-->
+    <p></p><!--   2      !-->
+    <p></p><!--   3      !-->
+    <p></p><!--   4      !-->
+    <p></p>
+  </div>
+
+
+ 
+
+
+  <div class="bottomRight">©2022 Group 9.</div>
+
+  <div class="bottomMiddle">    
+    <input type="button" value="Cancle" onclick="confirmDialog()" />  
+    <input type="button" value="Save" onclick="promptDialog()" /> 
+<!--    <button class="small button" id="click" type="button">Click</button>-->
+<!--    <button class="small button" disabled>Button</button> -->
+ </div>  
+  <script src="../scripts/effect.js"></script>
+</body>
+
+</html>
